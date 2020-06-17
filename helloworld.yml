@@ -1,0 +1,7 @@
+- name: Test downloading collection and roles
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - debug:
+        msg: hello world
