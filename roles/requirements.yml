@@ -1,0 +1,5 @@
+---
+roles:
+  - name: darrenswart.ad_group
+    version: 1.0.0
+    src: https://galaxy.ansible.com/
