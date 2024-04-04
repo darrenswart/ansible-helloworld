@@ -12,6 +12,6 @@
   gather_facts: true
 
   tasks:
-    - name: Hello Message
+    - name: Print hostname
       ansible.builtin.debug:
         msg: "{{ ansible_hostname }}"
